@@ -1,74 +1,59 @@
-📘 IELTSWritingAI
+# 📘 IELTSWritingAI
+## An AI-powered iOS app to improve IELTS Writing — built from personal experience
 
-IELTSWritingAI is an iOS app built with SwiftUI to help IELTS candidates improve their Writing Task 1 and Task 2 skills using AI-powered feedback.
+---
 
-I built this app because I personally struggled with IELTS Writing — especially understanding why my essays were not reaching the band score I wanted. I realized that many learners face the same problem: they practice writing, but don’t get clear, structured feedback based on official IELTS criteria.
-So instead of waiting for feedback, I decided to build a solution myself.
+## 🧠 Why I Built This App
 
-✨ Features
+I personally struggled with **IELTS Writing**, especially with understanding **why my essays were not reaching higher band scores**.  
+Practicing alone was frustrating — I wrote essays but didn’t receive clear, structured feedback based on official IELTS criteria.
 
-✍️ IELTS Writing Task 1 & Task 2 practice
+So I decided to **build my own solution**.
 
-🤖 AI-based essay evaluation
+**IELTSWritingAI** was created to provide instant, understandable, and criteria-based feedback — the kind of feedback I wished I had during my own preparation.
 
-📊 Estimated band score
+---
 
-🧩 Feedback based on:
+## ✨ Features
 
-Task Achievement
+- ✍️ IELTS Writing Task 1 & Task 2 practice
+- 🤖 AI-powered essay evaluation
+- 📊 Estimated band score
+- 🧩 Feedback based on official criteria:
+  - Task Achievement
+  - Coherence & Cohesion
+  - Lexical Resource
+  - Grammatical Range & Accuracy
+- 🧠 Actionable improvement suggestions
+- 🔐 Secure API key storage
+- 📱 Clean, distraction-free SwiftUI design
 
-Coherence & Cohesion
+---
 
-Lexical Resource
+## 🎯 Who This App Is For
 
-Grammatical Range & Accuracy
+- IELTS candidates preparing independently
+- Learners aiming for **Band 6.0–8.0+**
+- Developers interested in **AI + SwiftUI** projects
 
-🧠 Suggestions to improve structure, grammar, and vocabulary
+---
 
-🔐 Secure API key storage
+## 🛠 Tech Stack
 
-📱 Clean, distraction-free UI focused on exam preparation
+- SwiftUI
+- MVVM Architecture
+- AI API (OpenRouter / OpenAI-compatible)
+- Secure Local Storage
+- Modern iOS Navigation & State Management
 
-🎯 Motivation
+---
 
-While preparing for IELTS, I noticed that:
+## 📸 Screenshots
 
-Writing feedback is expensive or hard to get
+_Add screenshots here_
 
-Sample answers don’t explain why they score high
-
-Many apps focus on reading/listening, but not writing
-
-As a developer and an IELTS candidate, I decided to combine my own learning needs with AI and SwiftUI to create a practical writing assistant that feels like a personal tutor.
-
-This project is both:
-
-📚 a learning tool for IELTS candidates
-
-💻 a real-world iOS project demonstrating clean architecture and AI integration
-
-🛠 Tech Stack
-
-SwiftUI
-
-MVVM architecture
-
-AI API (OpenRouter / OpenAI-compatible)
-
-Secure local storage
-
-Modern iOS navigation and state management
-
-📸 Screenshots
-
-(Add screenshots here)
-
+```text
 /screenshots
-├── task1.png
-├── task2.png
-├── feedback.png
-
-⚠️ Disclaimer
-
-This application is not affiliated with IELTS, British Council, IDP, or Cambridge.
-All writing tasks are IELTS-style practice materials inspired by publicly available examples.
+├── writing_task1.png
+├── writing_task2.png
+├── ai_feedback.png
